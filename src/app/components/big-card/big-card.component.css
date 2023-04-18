@@ -1,8 +1,7 @@
 .container__big-card{
   width: 500px;
-  height: 70vh;
   border-radius: 10px;
-  margin: 0 15px;
+  margin: 0 15px 20px;
 
   display: flex;
   flex-direction: column;
@@ -30,3 +29,4 @@
   width: 100%;
   border-radius: 10px;
 }
+
