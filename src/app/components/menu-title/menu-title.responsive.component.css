@@ -1,23 +1,9 @@
-.container__menu-title{
-  color: white;
-  text-align: center;
-}
 
-.container__menu-title > h1 {
-  margin: 5px 0;
-  font-size: 12rem;
-  font-family: 'segoe UI';
-  display: flex;
-  justify-content: center;
-}
-.container__menu-title > hr {
-  margin: 15px 0;
-}
 
 
 @media screen and (max-width: 1024px) {
   .container__menu-title > h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
 }
@@ -27,4 +13,10 @@
     font-size: 5rem;
   }
 
+}
+
+@media screen and (max-width: 450px) {
+  .container__menu-title > h1 {
+    font-size: 3.5rem;
+  }
 }

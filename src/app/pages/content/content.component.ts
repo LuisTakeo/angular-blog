@@ -5,7 +5,7 @@ import { dataFake } from '../../data/dataFake';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css', './content.responsive.component.css']
 })
 export class ContentComponent implements OnInit {
   contentCover:string = "https://nerdhits.com.br/wp-content/uploads/2023/03/one-piece-shanks-e-barba-branca-dividem-o-ceu.jpg";

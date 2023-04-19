@@ -5,6 +5,7 @@
   padding: 0px 5px 10px;
 }
 
+
 .container__small-card-content{
   display: flex;
 }
@@ -22,7 +23,14 @@
 .small-card__picture > a > img {
   width: 15vw;
   min-width: 15vw;
-  border-radius: 10px;
+  border: 3px solid whitesmoke;
+  border-radius: 75px;
+}
+.small-card__picture > a > img:hover{
+  border: 3px solid rgb(29, 133, 252);
+}
+.small-card__title > h2 > a:hover{
+  border-bottom: 3px solid rgb(29, 133, 252);
 }
 
 .container__small-card-separator{

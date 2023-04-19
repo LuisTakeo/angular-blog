@@ -27,6 +27,18 @@
 
 .big-card__picture > a > img {
   width: 100%;
-  border-radius: 10px;
+  border: 3px solid whitesmoke;
+  border-radius: 75px;
+}
+
+.big-card__picture > a > img:hover{
+  border: 3px solid rgb(29, 133, 252);
+}
+.big-card__title > h2:hover {
+  border-bottom: 3px solid rgb(29, 133, 252);
+}
+
+.big-card__description > p > a:hover {
+  border-bottom: 3px solid rgb(29, 133, 252);
 }
 

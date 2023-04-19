@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px) {
+  .content__cover > img {
+    width: 90vw;
+  }
+  .content__title > h2 {
+    font-size: 1.2em;
+  }
+}
+
+
